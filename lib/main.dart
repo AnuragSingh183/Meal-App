@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:food/cat.dart';
-import 'package:food/cat_meals_screen.dart';
-import './cat_screen.dart';
+
+import 'package:food/screen/cat_meals_screen.dart';
+import 'screen/cat_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -29,9 +29,11 @@ class MyApp extends StatelessWidget {
             color: Color.fromRGBO(20, 51, 51, 1),
 
           ),
+          // ignore: deprecated_member_use
           body2: TextStyle(
             color: Color.fromRGBO(20, 51, 51, 1)
           ),
+          // ignore: deprecated_member_use
           title: TextStyle(
             fontSize: 24,
             fontFamily: "RoboCondensed"

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import "./meals.dart";
+import '../meals.dart';
 
-import './catitem.dart';
+import '../widgets/catitem.dart';
 
 
 // ignore: camel_case_types

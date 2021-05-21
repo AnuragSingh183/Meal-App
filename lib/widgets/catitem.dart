@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food/cat_meals_screen.dart';
 
 // ignore: camel_case_types
 class categoryItem extends StatelessWidget {
@@ -25,6 +24,7 @@ class categoryItem extends StatelessWidget {
         
         padding: const EdgeInsets.all(15),
         child: Text(title,
+        // ignore: deprecated_member_use
         style: Theme.of(context).textTheme.title,
         ),
         decoration: BoxDecoration(gradient: LinearGradient(colors: [
